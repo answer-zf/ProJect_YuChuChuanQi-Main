@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <title>御厨传奇</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" href="img/favicon.ico" />
+  <!-- <link rel="stylesheet" type="text/css" href="css/amazeui.min.css"> -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.SuperSlide.2.1.3.js"></script>
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!--头部导航部分-->
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top nav-zf">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav_list"
+            aria-expanded="false">
+            <span class="sr-only">切换菜单</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <i class="logo"></i>
+          </a>
+        </div>
+        <div id="nav_list" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-topNav">
+            <li class="active text-center">
+              <a href="index.html">首页</a>
+            </li>
+            <li class="text-center">
+              <a href="origin.html">关于我们</a>
+            </li>
+            <li class="text-center">
+              <a href="food.html">特色菜品</a></li>
+            <li class="text-center"><a href="news.html">新闻资讯</a></li>
+            <li class="text-center"><a href="cooperation.html">合作加盟</a></li>
+            <li class="text-center">
+              <a href="contactUs.html">联系我们</a>
+            </li>
+          </ul>
+          <ul class="nav  navbar-right hidden-sm nav-myRight">
+            <li>
+              <p class="text-center">加盟电话 ：400-8528-908</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--banner轮播部分-->
+  <section id="main_ad" class="carousel slide" data-ride="carousel">
+    <!-- 下面的小点点，活动指示器 -->
+    <ol class="carousel-indicators">
+      <li data-target="#main_ad" data-slide-to="0" class="active"></li>
+      <li data-target="#main_ad" data-slide-to="1"></li>
+      <li data-target="#main_ad" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播项 -->
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/banner1.jpg" alt="首页轮播图1" />
+      </div>
+      <div class="item">
+        <img src="img/banner1.jpg" alt="首页轮播图2" />
+      </div>
+      <div class="item">
+        <img src="img/banner1.jpg" alt="首页轮播图3" />
+      </div>
+    </div>
+  </section>
+  <!-- 菜品轮播展示 -->
+  <section class="index-food">
+    <div class="food-container">
+      <div class="food-title text-center">
+        <h3>御厨传奇 | 舌尖上的美味</h3>
+        <p>御厨传奇自助涮烤，一半烧烤，秘料味道鲜，一半火锅，锅底随心选。当火锅与烧烤有个约会，吃货们怎么能抵挡这诱惑！</p>
+      </div>
+
+      <div class="food-content">
+        <!-- pc样式 -->
+        <div class="picScroll-left">
+          <div class="hd">
+            <a class="next"></a>
+            <a class="prev"></a>
+          </div>
+          <div class="bd">
+            <ul class="picList">
+              <li>
+                <a href="food.html" target="_blank">
+                  <div class="pic">
+                    <img src="img/index-food1.jpg" alt="炭烤猪颈肉">
+                    <div class="title">
+                      <h5>炭烤猪颈肉</h5>
+                      <span>猪颈肉有“黄金六两”之称，肉脂如雪花般均匀,鲜嫩滑顺，炭烧后香浓美味，肉质紧致</span>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+              <li>
+
+                <div class="pic">
+                  <a href="food.html" target="_blank">
+                    <img src="img/index-food3.jpg" alt="草原高钙羊肉">
+                    <div class="title">
+                      <h5>草原高钙羊肉</h5>
+                      <span>选自内蒙古大草原精品羊肉，鲜香、嫩滑、滋阴补阳，可涮可烤，美到胃里</span>
+                    </div>
+                  </a>
+                </div>
+
+
+              </li>
+              <li>
+                <a href="food.html" target="_blank">
+                  <div class="pic">
+                    <img src="img/index-food4.jpg" alt="经典黑椒牛排">
+                    <div class="title">
+                      <h5>经典黑椒牛排</h5>
+                      <span>取自国外进口牛排，采用最地道的欧式烹饪手法，柔嫩鲜美，回味无穷</span>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+              <li>
+                <a href="food.html" target="_blank">
+                  <div class="pic">
+                    <img src="img/index-food5.jpg" alt="鲜活小白蛤">
+                    <div class="title">
+                      <h5>鲜活小白蛤</h5>
+                      <span>精选优质进口小白蛤，鲜嫩多汁、营养丰富、滋阴润燥</span>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+              <li>
+                <a href="food.html" target="_blank">
+                  <div class="pic">
+                    <img src="img/index-food7.jpg" alt="蒜烤扇贝">
+                    <div class="title">
+                      <h5>蒜烤扇贝</h5>
+                      <span>最经典的味道，最新鲜的没美味，好吃到没法形容，吃货怎们抵挡的住</span>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+              <li>
+                <a href="food.html" target="_blank">
+                  <div class="pic">
+                    <img src="img/index-food8.jpg" alt="芝士爆汁鱼籽卷">
+                    <div class="title">
+                      <h5>芝士爆汁鱼籽卷</h5>
+                      <span>最时尚的菜品配最时尚的你，新颖的味道好到爆汁，滋滋滋。。</span>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+              <li>
+                <a href="food.html" target="_blank">
+                  <div class="pic">
+                    <img src="img/index-food6.jpg" alt="可可火龙果芝士卷">
+                    <div class="title">
+                      <h5>可可火龙果芝士卷</h5>
+                      <span>当甜品遇到网红，不一样的体验，不一样的风味，尽享美食的快感</span>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+              <li>
+                <a href="food.html" target="_blank">
+                  <div class="pic">
+                    <img src="img/index-food2.jpg" alt="一口牛腩">
+                    <div class="title">
+                      <h5>一口牛腩</h5>
+                      <span>牛腩取自肋骨间的去骨条状肉，瘦多筋少，肥瘦相间，烧烤后别样风味</span>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- 手机端适配 -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="food.html" target="_blank">
+                <div class="pic">
+                  <img src="img/index-food1.jpg" alt="炭烤猪颈肉">
+                  <div class="title">
+                    <h5>炭烤猪颈肉</h5>
+                    <span>猪颈肉有“黄金六两”之称，肉脂如雪花般均匀,鲜嫩滑顺，炭烧后香浓美味，肉质紧致。</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="food.html" target="_blank">
+                <div class="pic">
+                  <img src="img/index-food4.jpg" alt="经典黑椒牛排">
+                  <div class="title">
+                    <h5>经典黑椒牛排</h5>
+                    <span>取自国外进口牛排，采用最地道的欧式烹饪手法，柔嫩鲜美，回味无穷。</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="food.html" target="_blank">
+                <img src="img/index-food3.jpg" alt="草原高钙羊肉">
+                <div class="title">
+                  <h5>草原高钙羊肉</h5>
+                  <span>选自内蒙古大草原精品羊肉，鲜香、嫩滑、滋阴补阳，可涮可烤，美到胃里。</span>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="food.html" target="_blank">
+                <div class="pic">
+                  <img src="img/index-food5.jpg" alt="鲜活小白蛤">
+                  <div class="title">
+                    <h5>鲜活小白蛤</h5>
+                    <span>精选优质进口小白蛤，鲜嫩多汁、营养丰富、滋阴润燥、美味不可挡。</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="food.html" target="_blank">
+                <div class="pic">
+                  <img src="img/index-food7.jpg" alt="蒜烤扇贝">
+                  <div class="title">
+                    <h5>蒜烤扇贝</h5>
+                    <span>最经典的味道，最新鲜的没美味，好吃到没法形容，吃货怎们抵挡的住。</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="food.html" target="_blank">
+                <div class="pic">
+                  <img src="img/index-food8.jpg" alt="芝士爆汁鱼籽卷">
+                  <div class="title">
+                    <h5>芝士爆汁鱼籽卷</h5>
+                    <span>最时尚的菜品配最时尚的你，新颖的味道好到爆汁，滋滋滋。。</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="food.html" target="_blank">
+                <div class="pic">
+                  <img src="img/index-food6.jpg" alt="可可火龙果芝士卷">
+                  <div class="title">
+                    <h5>可可火龙果芝士卷</h5>
+                    <span>当甜品遇到网红，不一样的体验，不一样的风味，尽享美食的快感。</span>
+                  </div>
+                </div>
+              </a></div>
+            <div class="swiper-slide">
+              <a href="food.html" target="_blank">
+                <div class="pic">
+                  <img src="img/index-food2.jpg" alt="一口牛腩">
+                  <div class="title">
+                    <h5>一口牛腩</h5>
+                    <span>牛腩取自肋骨间的去骨条状肉，瘦多筋少，肥瘦相间，烧烤后别样风味。</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 菜品品类 -->
+  <section class="index-hotPot">
+    <div class="container">
+      <div class="row hotPot-title">
+        <div class="col-md-12 text-center">
+          <h3>御厨传奇 | 美味·不简单</h3>
+          <p>御厨传奇一直秉承于忠于传统，但又不居于传统的准则，得到了广大食客的推捧，这里有经典的涮烤一体，同时又推陈出新，惊喜连连！</p>
+        </div>
+      </div>
+      <div class="row hotPot-content">
+        <div class="col-md-3 col-xs-12">
+          <a href="food.html">
+            <div class="hotPot-textPhone">
+              <div class="hotPot-text">
+                <div class="hotPot-textContainer">
+                  <div class="hotPot-textTitle">
+                    <h5>金刚锅</h5>
+                    <b>DIAMOND POT</b>
+                  </div>
+                  <span>
+                    上层烧烤下层火锅，美味来袭，难以抵挡，这有可口的菜品，有自己动手的乐趣，再加上尝到自己的所做的美味，那种满足感，只有御厨传奇才能给我们这样的享受。
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hotPot-Pic">
+              <img src="img/index-hotPot1.jpg" alt="金刚锅">
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-xs-12">
+          <a href="food.html">
+            <div class="hotPot-Pic">
+              <img src="img/index-hotPot2.jpg" alt="部队火锅">
+            </div>
+            <div class="hotPot-textPhone">
+              <div class="hotPot-text">
+                <div class="hotPot-textContainer">
+                  <div class="hotPot-textTitle">
+                    <h5>部队火锅</h5>
+                    <b>ARMY HOT POT</b>
+                  </div>
+                  <span>
+                    风靡韩国的网红火锅，来到御厨，将会迸发出怎样的火花？地道的韩式风味，配上新鲜的辅助食材，加上特色酱料，让食客怎么能抵挡的住。来到御厨传奇，享受不一样的传奇。
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-xs-12">
+          <a href="food.html">
+            <div class="hotPot-textPhone">
+              <div class="hotPot-text">
+                <div class="hotPot-textContainer">
+                  <div class="hotPot-textTitle">
+                    <h5>宝塔锅王</h5>
+                    <b>PAGODA KING</b>
+                  </div>
+                  <span>
+                    在美食的不断更新中，御厨传奇也在不断地创新着各种菜品。一锅四吃的理念诞生后，应运而生的就是最火爆的宝塔火锅。品味着想要的美味，满足所有人的需求。
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="hotPot-Pic">
+              <img src="img/index-hotPot3.jpg" alt="金刚锅">
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-xs-12">
+          <a href="food.html">
+            <div class="hotPot-Pic">
+              <img src="img/index-hotPot4.jpg" alt="金刚锅">
+            </div>
+            <div class="hotPot-textPhone">
+              <div class="hotPot-text">
+                <div class="hotPot-textContainer">
+                  <div class="hotPot-textTitle">
+                    <h5>趣捞锅</h5>
+                    <b>FISHING POT</b>
+                  </div>
+                  <span>
+                    在御厨传奇所推出的众多新品中，最具特色的就是趣捞，每一筷的乐趣只有自己知道。没有点菜的烦恼，有着不一样的美味，就在这里。不一样的火锅，就在趣捞。
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 关于我们 -->
+  <section class="index-aboutUs">
+    <div class="container">
+      <div class="row aboutUs-title">
+        <div class="col-md-12 text-center">
+          <h3>御厨传奇 | 品牌源于品质</h3>
+        </div>
+      </div>
+      <div class="row aboutUs-contentIntr">
+        <div class="col-md-6 contentIntr-Pic">
+          <img src="img/aboutUsContent.png" alt="首页关于我们介绍图">
+        </div>
+        <div class="col-md-7 contentIntr-text">
+          <p>
+            御厨传奇隶属于安徽尚元餐饮管理公司，是尚元餐饮花巨资打造的全新餐饮项目。公司成立于2003年，是一家以研究推广养生、食疗、美食餐饮文化为主体，打造高端、独特、营养、养生的餐饮项目为己任的大型餐饮集团，集餐饮管理、餐饮连锁加盟、运营管理、食品研究、教育培训、管理咨询、营销策划为一体。成立十余年来，凭借着雄厚的资金实力和技术优势，推出了日本料理、韩国烤肉、特色烧烤等多个项目，均取得巨大成功，在业内享有盛誉。
+          </p>
+          <p>御厨传奇采用国际化、现代化的管理模式，以弘扬健康饮食文化、打造特色养生餐饮为使命，本着“科学、健康、养生、时尚”的理念，成功整合诸多餐饮行业资源，在打造皇家御厨特色美食方面不断创新，为广大的合作商提供了一个快速致富的平台！</p>
+          <!-- <p>
+            御厨传奇涮烤一体青春文化主题餐厅环境，为消费者营造一种激情洋溢、舒适享受的用餐环境。御厨传奇特色餐厅所营造出的娱乐时尚、青春自我的用餐环境，满足不同年龄层次的消费者的用餐需求，成为人们商务会餐、情侣约会、亲朋好友聚餐、年轻人聚会之地。
+          </p> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-contentHoner">
+    <div class="containerAbout">
+      <div class="picMarquee-left">
+        <div class="bd">
+          <ul class="picList">
+            <li>
+              <div class="pic"><img src="img/aboutUsHonerPic1.jpg" alt="荣誉奖牌" /></div>
+
+            </li>
+            <li>
+              <div class="pic"><img src="img/aboutUsHonerPic2.jpg" alt="荣誉奖牌" /></div>
+
+            </li>
+            <li>
+              <div class="pic"><img src="img/aboutUsHonerPic3.jpg" alt="荣誉奖牌" /></div>
+
+            </li>
+            <li>
+              <div class="pic"><img src="img/aboutUsHonerPic4.jpg" alt="荣誉奖牌" /></div>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p>13年至今的荣誉无数，要的不是虚名，而是大家对品牌的信赖</p>
+
+  </section>
+
+
+  <!-- 新闻页 -->
+  <section class="index-news">
+    <div class="container">
+      <div class="row news-title">
+        <div class="col-md-12 text-center">
+          <h3>御厨传奇 | 掌控实时动态</h3>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-md-7">
+          <a href="newsContent.html" class="index-newsContent">
+            <h3> <em> 【最新动态】</em>御厨传奇涮烤,火锅,烧烤结合“良配”</h3>
+            <span>俗话说“民以食为天”相信很多人和尚京小编一样对于涮烤餐饮有十分好奇的心里，相信
+              很多人都想来试一下来自豪华盛宴的愿望，现在就来实现吧，因为御厨传奇涮烤特色餐。。聪明的餐饮品牌总能提前洞察市场消费者的消费需求大方向!御厨传奇涮烤不是一般的创业致富项目，这个特色餐饮加盟品牌看准了市场的发展趋势，结合企业自身的特点，利用经验、技术、人力资源、产品等多方面的优势成功跟同行拉开一大截的距离。也正是由于它专业的管理团队精心的打造，让御厨传奇涮烤变得与众不同，并且能在餐饮市场中遥遥领先同类品牌。
+            </span>
+            <b>2019-06-11</b>
+            <div class="dashed"></div>
+          </a>
+          <a href="newsContent.html" class="index-newsContent">
+            <h3> <em> 【最新动态】</em>御厨传奇涮烤,火锅,烧烤结合“良配”</h3>
+            <span>俗话说“民以食为天”相信很多人和尚京小编一样对于涮烤餐饮有十分好奇的心里，相信
+              很多人都想来试一下来自豪华盛宴的愿望，现在就来实现吧，因为御厨传奇涮烤特色餐。。聪明的餐饮品牌总能提前洞察市场消费者的消费需求大方向!御厨传奇涮烤不是一般的创业致富项目，这个特色餐饮加盟品牌看准了市场的发展趋势，结合企业自身的特点，利用经验、技术、人力资源、产品等多方面的优势成功跟同行拉开一大截的距离。也正是由于它专业的管理团队精心的打造，让御厨传奇涮烤变得与众不同，并且能在餐饮市场中遥遥领先同类品牌。
+            </span>
+            <b>2019-06-11</b>
+            <div class="dashed"></div>
+          </a>
+          <a href="newsContent.html" class="index-newsContent">
+            <h3> <em> 【最新动态】</em>御厨传奇涮烤,火锅,烧烤结合“良配”</h3>
+            <span>俗话说“民以食为天”相信很多人和尚京小编一样对于涮烤餐饮有十分好奇的心里，相信
+              很多人都想来试一下来自豪华盛宴的愿望，现在就来实现吧，因为御厨传奇涮烤特色餐。。聪明的餐饮品牌总能提前洞察市场消费者的消费需求大方向!御厨传奇涮烤不是一般的创业致富项目，这个特色餐饮加盟品牌看准了市场的发展趋势，结合企业自身的特点，利用经验、技术、人力资源、产品等多方面的优势成功跟同行拉开一大截的距离。也正是由于它专业的管理团队精心的打造，让御厨传奇涮烤变得与众不同，并且能在餐饮市场中遥遥领先同类品牌。
+            </span>
+            <b>2019-06-11</b>
+            <div class="dashed"></div>
+          </a>
+        </div>
+        <div class="col-md-5 hidden-xs">
+          <img src="img/index-news.jpg" alt="首页新闻图">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="footerSubitem">
+            <h4>公司名称</h4>
+            <span><em>Shangyuan branch</em> <br>
+              尚京集团尚元分公司
+            </span>
+            <!-- <span>乘坐2路.15路.106路.136路.137路.155路在百花井东下</span> -->
+            <img src="img/index-footerName.png" alt="公司名称">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footerSubitem">
+            <h4>公司地址</h4>
+            <span>安徽省合肥市庐阳区寿春路156号古井百花大厦B座</span>
+            <img src="img/index-footerLocation.png" alt="公司地址">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footerSubitem">
+            <h4>公交路线</h4>
+            <span>乘坐2路.15路.106路.136路.137路.155路在百花井东下</span>
+            <img src="img/index-footerBus.png" alt="公交路线">
+          </div>
+        </div>
+      </div>
+      <div class="row footerSlider">
+        <div class="col-md-12 text-center">
+          <h6 class="hidden-xs">
+            <a href="index.html">网站首页&nbsp; | &nbsp;</a>
+            <a href="origin.html">关于我们&nbsp; | &nbsp;</a>
+            <a href="food.html">特色菜品&nbsp; | &nbsp;</a>
+            <a href="news.html">新闻资讯&nbsp; | &nbsp;</a>
+            <a href="cooperation.html">加盟合作&nbsp; | &nbsp;</a>
+            <a href="contactUs.html">联系我们</a>
+          </h6>
+          <p>安徽尚京品牌管理股份有限公司版权所有 皖ICP备18022821号-2</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- vue.js -->
+  <div id="footer-zf">
+    <!--底部悬浮-->
+    <float-bot></float-bot>
+
+  </div>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/2.2.2Vue.min.js"></script>
+  <script src="js/zf-vue-main.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
+    // pc动效
+    jQuery(".picScroll-left").slide({ titCell: ".hd ul", mainCell: ".bd ul", autoPage: true, effect: "leftLoop", autoPlay: true, vis: 2, trigger: "click" });
+    jQuery(".picMarquee-left").slide({ mainCell: ".bd ul", autoPlay: true, effect: "leftMarquee", vis: 4, interTime: 50 });
+    // 手机动效
+    var swiper = new Swiper('.swiper-container', {
+      loop: true,
+      autoplay: true,
+      autoplay: {
+        delay: 3000,
+        stopOnLastSlide: false,
+        disableOnInteraction: true,
+      },
+    });
+    $indexNewsText = $(".index-newsContent>span").html();
+    $indexNewsText = $indexNewsText.slice(0, 90) + "...";
+    $(".index-newsContent>span").html($indexNewsText);
+  </script>
+</body>
+
+</html>
